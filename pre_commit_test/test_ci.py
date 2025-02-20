@@ -5,4 +5,4 @@ def greet(name: int) -> str:
     return 42
 
 
-greet("world")
+greet("world test")

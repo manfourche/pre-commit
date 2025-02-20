@@ -1,8 +1,7 @@
 # test_ci.py
 
 def greet(name: str) -> str:
-    print("Hello, " + name + "!")
-    return 42
+    return print("Hello, " + name + "!")
 
 
 greet("world test")

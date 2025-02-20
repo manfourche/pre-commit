@@ -1,6 +1,6 @@
 # test_ci.py
 
-def greet(name: int) -> str:
+def greet(name: str) -> str:
     print("Hello, " + name + "!")
     return 42
 

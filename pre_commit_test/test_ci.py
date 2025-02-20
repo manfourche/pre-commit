@@ -1,9 +1,10 @@
 # test_ci.py
 
+
 def greet(name: str) -> str:
     message = "Hello, " + name + "!"
-    print(message)  # ✅ Still prints for visibility
-    return message  # ✅ Now actually returns a string
+    return message
 
-greet("world")
 
+if __name__ == "__main__":
+    greet("world")
